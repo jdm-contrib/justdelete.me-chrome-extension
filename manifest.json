@@ -1,0 +1,24 @@
+{
+  "name": "__MSG_name__",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "__MSG_description__",
+  "default_locale": "en",
+  "background": {
+    "scripts": ["js/background.js"]
+  },
+  "homepage_url": "http://justdelete.me/",
+  "default_locale": "en",
+  "content_security_policy": "script-src 'self'; object-src 'self';",
+  "permissions": [
+    "tabs", "<all_urls>"
+  ],
+  "icons": {
+    "16": "img/icon.png",
+    "48": "img/icon.png",
+    "128": "img/icon.png"
+  },
+  "page_action": {},
+  "minimum_chrome_version": "18",
+  "offline_enabled": true
+}

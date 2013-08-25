@@ -1,0 +1,10 @@
+{
+  "name": {
+    "message": "JustDelete.me",
+    "description": "Extension name"
+  },
+  "description": {
+    "message": "Provides link on a site to where to delete account and informs you how hard it is to delete your account.",
+    "description": "Extension description"
+  }
+}
