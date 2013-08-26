@@ -30,8 +30,12 @@ function updateSites(){
 
 			// set up the new sites object.
 			for(var i in response){
-				console.log(getHostname(response[i].url, true));
-				newSites[getHostname(response[i].url, true)] = response[i];
+				// Vine is annoying and uses twitter.com for support.
+				if(response[i].name == 'Vine'){
+					newSites['vine.co'] = response[i];	
+				}else{
+					newSites[getHostname(response[i].url, true)] = response[i];	
+				}
 			}
 
 			sites = newSites;
