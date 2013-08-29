@@ -32,7 +32,10 @@ function updateSites(){
 			for(var i in response){
 				// Vine is annoying and uses twitter.com for support.
 				if(response[i].name == 'Vine'){
-					newSites['vine.co'] = response[i];	
+					newSites['vine.co'] = response[i];
+				// jsfiddle.net is also a pain and use github.
+				} else if(response[i].name == 'jsFiddle'){
+					newSites['jsfiddle.net'] = response[i];	
 				}else{
 					newSites[getHostname(response[i].url, true)] = response[i];	
 				}
