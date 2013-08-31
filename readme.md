@@ -9,7 +9,7 @@ This extension will add a traffic light icon to your omnibar indicating the diff
 Upon clicking this icon you will be taken to the page which you can delete your account.
 
 ## Colour Key:
-Green - Simple process
-Yellow - Some extra steps involved
-Red - Cannot be fully deleted without contacting customer-services
-Block - Cannot be deleted
+* Green - Simple process
+* Yellow - Some extra steps involved
+* Red - Cannot be fully deleted without contacting customer-services
+* Block - Cannot be deleted
