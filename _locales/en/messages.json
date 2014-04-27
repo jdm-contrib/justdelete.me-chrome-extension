@@ -1,10 +1,14 @@
 {
   "name": {
-    "message": "JustDelete.me",
+    "message": "Where to delete an account",
     "description": "Extension name"
   },
+  "short_name": {
+    "message": "JustDelete.me",
+    "description": "Extension short name"
+  },
   "description": {
-    "message": "Provides link on a site to where to delete account and informs you how hard it is to delete your account.",
+    "message": "Provides link in the omnibar to where to delete account and informs you how hard it is to delete your account. Uses data from JustDelete.me.",
     "description": "Extension description"
   }
 }
