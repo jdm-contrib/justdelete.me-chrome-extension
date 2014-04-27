@@ -13,3 +13,7 @@ Upon clicking this icon you will be taken to the page which you can delete your 
 * Yellow - Some extra steps involved
 * Red - Cannot be fully deleted without contacting customer-services
 * Block - Cannot be deleted
+
+## Contributing
+
+If you'd like to help this extension by adding a few lines of code, fork https://github.com/MikeRogers0/justdelete.me-chrome-extension and send a pull request.
