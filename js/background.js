@@ -15,7 +15,7 @@ function updateSites(){
 			localStorage['lastUpdated'] = (new Date() * 1);
 		}
 	}, false);
-	req.open("GET", "https://raw.github.com/rmlewisuk/justdelete.me/dev/sites.json", true);
+	req.open("GET", "https://raw.github.com/rmlewisuk/justdelete.me/master/sites.json", true);
 	req.send();
 }
 
@@ -65,7 +65,6 @@ function getInfo(url){
     for(var d in site.domains){
       var domain = site.domains[d];
       if(domain.indexOf(hostname) != -1){
-        console.log(site, hostname);
         return site;
       }
     }
@@ -79,7 +78,6 @@ function getInfo(url){
     for(var d in site.domains){
       var domain = site.domains[d];
       if(domain.indexOf(hostname) != -1){
-        console.log(site, hostname);
         return site;
       }
     }
@@ -95,7 +93,7 @@ chrome.tabs.onUpdated.addListener(function(tabId, changeInfo, tab){
 		var info = getInfo(tab.url);
 		if(info != false){
 			if(typeof info.notes != 'undefined'){
-				chrome.pageAction.setTitle({tabId:tabId, title:info.notes});
+				chrome.pageAction.setTitle({tabId:tabId, title: info.name + ': ' + info.notes});
 			}
 			chrome.pageAction.setIcon({tabId:tabId, path: '../img/icon_'+info.difficulty+'_38.png'});
 			chrome.pageAction.show(tabId);
