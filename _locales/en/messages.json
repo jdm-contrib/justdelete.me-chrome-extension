@@ -8,7 +8,7 @@
     "description": "Extension short name"
   },
   "description": {
-    "message": "Provides link in the omnibar to where to delete account and informs you how hard it is to delete your account. Uses data from JustDelete.me.",
+    "message": "Provides link in the omnibar to where to delete account and informs you how hard it is to delete your account.",
     "description": "Extension description"
   }
 }
