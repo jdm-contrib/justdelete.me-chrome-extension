@@ -1,8 +1,21 @@
 // Declare the main variables
-var sites = {},
+let sites = {};
+const SOURCE_DATA = 'https://raw.githubusercontent.com/jdm-contrib/justdelete.me/master/sites.json';
 // The odd subdomains people append to their site.
-subdomains = ['www', 'support', 'mail', 'ssl', 'new', 'cgi1', 'en', 'myaccount', 'meta', 'help', 'support', 'edit'];
-
+subdomains = [
+	'www',
+	'support',
+	'mail',
+	'ssl',
+	'new',
+	'cgi1',
+	'en',
+	'myaccount',
+	'meta',
+	'help',
+	'support',
+	'edit'
+];
 
 function updateSites(){
 	var req = new XMLHttpRequest();
@@ -15,7 +28,7 @@ function updateSites(){
 			localStorage['lastUpdated'] = (new Date() * 1);
 		}
 	}, false);
-	req.open("GET", "https://raw.github.com/rmlewisuk/justdelete.me/master/sites.json", true);
+	req.open("GET", SOURCE_DATA , true);
 	req.send();
 }
 
