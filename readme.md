@@ -12,7 +12,7 @@ Upon clicking this icon you will be taken to the page which you can delete your 
 * Green - Simple process
 * Yellow - Some extra steps involved
 * Red - Cannot be fully deleted without contacting customer-services
-* Block - Cannot be deleted
+* Black - Cannot be deleted
 
 ## Contributing
 
