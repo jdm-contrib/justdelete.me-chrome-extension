@@ -16,4 +16,4 @@ Upon clicking this icon you will be taken to the page which you can delete your 
 
 ## Contributing
 
-If you'd like to help this extension by adding a few lines of code, fork https://github.com/MikeRogers0/justdelete.me-chrome-extension and send a pull request.
+If you'd like to help this extension by adding a few lines of code, fork https://github.com/jdm-contrib/justdelete.me-chrome-extension and send a pull request.

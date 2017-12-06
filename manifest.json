@@ -8,7 +8,7 @@
   "background": {
     "scripts": ["js/background.js"]
   },
-  "homepage_url": "http://justdelete.me/",
+  "homepage_url": "http://justdeleteme.xyz/",
   "default_locale": "en",
   "permissions": [
     "tabs", "<all_urls>"
