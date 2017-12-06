@@ -17,3 +17,7 @@ Upon clicking this icon you will be taken to the page which you can delete your 
 ## Contributing
 
 If you'd like to help this extension by adding a few lines of code, fork https://github.com/jdm-contrib/justdelete.me-chrome-extension and send a pull request.
+
+## Releasing
+
+Firstly tag the release in GitHub by running `git tag VERSION_NUMBER && git push origin --tags`. Then run `bash release.sh`, this'll will create a zip file of the latest version of the extension, which can be uploaded to the chrome store.
