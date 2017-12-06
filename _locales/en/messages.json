@@ -1,10 +1,10 @@
 {
   "name": {
-    "message": "Where to delete an account",
+    "message": "Just Delete Me",
     "description": "Extension name"
   },
   "short_name": {
-    "message": "JustDelete.me",
+    "message": "Just Delete Me",
     "description": "Extension short name"
   },
   "description": {
