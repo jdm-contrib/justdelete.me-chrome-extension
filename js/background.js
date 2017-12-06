@@ -15,7 +15,7 @@ function updateSites(){
 			localStorage['lastUpdated'] = (new Date() * 1);
 		}
 	}, false);
-	req.open("GET", "https://raw.github.com/rmlewisuk/justdelete.me/master/sites.json", true);
+	req.open("GET", "https://raw.githubusercontent.com/jdm-contrib/justdelete.me/master/sites.json", true);
 	req.send();
 }
 
