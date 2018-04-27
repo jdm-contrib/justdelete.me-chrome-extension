@@ -2,9 +2,9 @@
 
 Provides link on a site to where to delete account and informs you how hard it is to delete your account.
 
-Information about how to delete account is pulled daily from JustDelete.me ([justdelete.me](http://justdelete.me/)). 
+Information about how to delete account is pulled daily from JustDelete.me ([justdeleteme.xyz](http://justdeleteme.xyz)).
 
-This extension will add a traffic light icon to your omnibar indicating the difficulty in removing an account on the website your visiting is. 
+This extension will add a traffic light icon to your omnibar indicating the difficulty in removing an account on the website your visiting is.
 
 Upon clicking this icon you will be taken to the page which you can delete your account.
 
