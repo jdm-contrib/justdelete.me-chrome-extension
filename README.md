@@ -1,3 +1,10 @@
+# Deprecated
+
+You can find the new extension at:
+
+- https://chrome.google.com/webstore/detail/just-delete-me/dlhckcablohllindinahbbpnfgblimoe
+- https://github.com/fregante/jdm (source)
+
 # JustDeleteMe Chrome Extension
 
 Provides link on a site to where to delete account and informs you how hard it is to delete your account.
