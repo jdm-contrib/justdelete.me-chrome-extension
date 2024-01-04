@@ -1,3 +1,7 @@
+This repository is **no longer maintained**. There's an unnoficial working chrome extension which can be found at:
+- [Extension on Chrome Web Store](https://chrome.google.com/webstore/detail/just-delete-me/dlhckcablohllindinahbbpnfgblimoe)
+- [Extension source code on GitHub](https://github.com/fregante/jdm)
+
 # JustDeleteMe Chrome Extension
 
 Provides link on a site to where to delete account and informs you how hard it is to delete your account.
